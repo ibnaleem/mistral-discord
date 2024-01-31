@@ -12,7 +12,7 @@ client = commands.Bot(command_prefix="!", intents=intents, owner_id=111052690610
 @client.event
 async def on_ready() -> None:
     try:
-        await client.change_presence(activity=discord.Streaming(name="/help", url="https://twitch.tv/gothamchess"))
+        await client.change_presence(activity=discord.Streaming(name="message me", url="https://twitch.tv/gothamchess"))
         print(f"----- Mistral AI is Online -----\nServers: {len(client.guilds)}\nMembers: {len(client.users)}")
 
     except Exception:
@@ -27,6 +27,7 @@ async def on_message(message):
         pass
     else:
         if isinstance(message.channel, discord.DMChannel):
+            await message.channel.typing()
             num = 1
             while num != 0:
                 chat_log.append({"role": "user", "content": message.content})
