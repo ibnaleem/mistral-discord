@@ -53,7 +53,7 @@ async def on_message(message):
 @client.event
 async def on_guild_join(guild):
 
-    server_button = Button(label="Discord Server", style=discord.ButtonStyle.url, url="https://discord.gg/https://discord.gg/JX4XgrQSeV")
+    server_button = Button(label="Discord Server", style=discord.ButtonStyle.url, url="https://discord.gg/JX4XgrQSeV")
     github_button = Button(label="GitHub", style=discord.ButtonStyle.url, url="https://github.com/ibnaleem/mistral-discord")
     view = View()
     view.add_item(server_button)
