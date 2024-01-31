@@ -20,7 +20,7 @@ https://discord.com/api/oauth2/authorize?client_id=1202215160954228766&permissio
 ```
 
 ## Purpose
-Mistral AI Discord facilitates user interaction with the Large Language Model (LLM) through Discord chat functionality. Users can invite Mistral AI to their Discord server and engage in conversations immediately, equivalent to ChatGPT. Currently, Mistral's 7.3B parameter LLM can:
+Mistral Discord facilitates user interaction with the Large Language Model (LLM) through Discord chat functionality. Users can invite Mistral AI to their Discord server and engage in conversations immediately, equivalent to ChatGPT. Currently, Mistral's 7.3B parameter LLM can:
 - Outperform Llama 2 13B on all benchmarks
 - Outperform Llama 1 34B on many benchmarks
 - Approach CodeLlama 7B performance on code, while remaining good at English tasks
@@ -29,4 +29,13 @@ Mistral AI Discord facilitates user interaction with the Large Language Model (L
 
 ([Mistral AI, 2024](https://mistral.ai/news/announcing-mistral-7b/))
 
-Mistral AI Discord does not have any commands, though could in the future. Therefore, Mistral AI Discord does not require any permissions to function properly. It is recommended for admins to create a seperate (no-permission) role for Mistral AI Discord and place it near the top of the server so server members can easily message the bot. 
+Mistral Discord does not have any commands, though could in the future. Therefore, Mistral Discord does not require any permissions to function properly. It is recommended for admins to create a seperate (no-permission) role for Mistral AI Discord and place it near the top of the server so server members can easily message the bot. 
+
+## Acknowledgements
+- [Mistral AI](https://mistral.ai)
+- [ollama/ollama-python](https://github.com/ollama/ollama-python)
+
+## Support Server
+```
+https://discord.gg/JX4XgrQSeV
+```
