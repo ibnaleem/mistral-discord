@@ -20,7 +20,7 @@ https://discord.com/api/oauth2/authorize?client_id=1202215160954228766&permissio
 ```
 
 ## Purpose
-The Mistral AI Discord repository facilitates user interaction with the Large Language Model (LLM) through Discord chat functionality. Users can invite Mistral AI to their Discord server and engage in conversations immediately, equivalent to ChatGPT. Currently, Mistral's 7.3B parameter LLM can:
+Mistral AI Discord facilitates user interaction with the Large Language Model (LLM) through Discord chat functionality. Users can invite Mistral AI to their Discord server and engage in conversations immediately, equivalent to ChatGPT. Currently, Mistral's 7.3B parameter LLM can:
 - Outperform Llama 2 13B on all benchmarks
 - Outperform Llama 1 34B on many benchmarks
 - Approach CodeLlama 7B performance on code, while remaining good at English tasks
