@@ -27,6 +27,9 @@ Mistral Discord facilitates user interaction with the Large Language Model (LLM)
 
 Mistral Discord does not have any commands, though could in the future. Therefore, Mistral Discord does not require any permissions to function properly. It is recommended for admins to create a separate (no-permission) role for Mistral AI Discord and place it near the top of the server so server members can easily message the bot. 
 
+## Privacy
+This project does not collect or store your chats with Mistral AI; all chats are stored in random access memory (RAM) temporarily. See lines [9](https://github.com/ibnaleem/mistral-discord/blob/main/main.py#L9), [39](https://github.com/ibnaleem/mistral-discord/blob/main/main.py#L39), and [43](https://github.com/ibnaleem/mistral-discord/blob/main/main.py#L43) in [main.py](https://github.com/ibnaleem/mistral-discord/blob/main/main.py)
+
 ## Acknowledgements
 - [Mistral AI](https://mistral.ai)
 - [ollama/ollama-python](https://github.com/ollama/ollama-python)
