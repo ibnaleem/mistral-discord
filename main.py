@@ -14,7 +14,7 @@ async def on_ready() -> None:
     try:
         await client.change_presence(
             activity=discord.Streaming(
-                name="message me", url="https://twitch.tv/gothamchess"
+                name="Ask me anything!", url="https://twitch.tv/gothamchess"
             )
         )
         print(
