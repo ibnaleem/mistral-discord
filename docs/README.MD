@@ -25,7 +25,7 @@ Mistral Discord facilitates user interaction with the Large Language Model (LLM)
 
 ([Mistral AI, 2024](https://mistral.ai/news/announcing-mistral-7b/))
 
-Mistral Discord does not have any commands, though could in the future. Therefore, Mistral Discord does not require any permissions to function properly. It is recommended for admins to create a seperate (no-permission) role for Mistral AI Discord and place it near the top of the server so server members can easily message the bot. 
+Mistral Discord does not have any commands, though could in the future. Therefore, Mistral Discord does not require any permissions to function properly. It is recommended for admins to create a separate (no-permission) role for Mistral AI Discord and place it near the top of the server so server members can easily message the bot. 
 
 ## Acknowledgements
 - [Mistral AI](https://mistral.ai)
